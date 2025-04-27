@@ -1,0 +1,811 @@
+/*
+ * Theme Name:  Authentic Child
+ * Theme URI:   https://codesupply.co/themes/authentic/
+ * Description: Authentic Child Theme
+ * Author:      Code Supply Co.
+ * Author URI:  https://codesupply.co/
+ * Template:    authentic
+ * Version:     1.0.0
+ */
+
+/* Copy any classes from parent theme here. They will override the parent's version. */
+
+/* globle css  */
+.btn-custom {
+    background-color: #4DA38F;
+    transition: 0.2s;
+    padding: 8px 16px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    display: inline-block;
+    font-family: Poppins;
+    font-weight: 700;
+    letter-spacing: 0.1125em;
+    text-transform: uppercase;
+}
+.sight-portfolio-load-more-btn {
+    background-color: #4DA38F;
+}
+.sight-portfolio-load-more-btn {
+    background-color: #4DA38F !important;
+}
+.sight-portfolio-load-more-btn:hover {
+    background-color: #000000 !important;
+    color: #fff;
+}
+[data-scheme="dark"] .sight-portfolio-load-more-btn {
+    background-color: #474747 !important;
+}
+[data-scheme="dark"] .sight-portfolio-load-more-btn:hover {
+    background-color: #282828 !important;
+}
+.btn-custom:hover {
+    background-color: #000000;
+    color: #fff;
+}
+[data-scheme="dark"] .btn-custom {
+    background-color: #474747 !important;
+}
+[data-scheme="dark"] .btn-custom:hover {
+    background-color: #282828 !important;
+}
+.copy-right-footer-bottom {
+    padding: 35px 20px;
+}
+.copy-right-footer-bottom nav.nav.navbar-footer.navbar-lonely {
+    margin: 0;
+}
+/* selected category section css start  */
+.selected-category-sec .cnvs-block-column-inner h2  {
+    text-align: center;
+}
+.selected-category-sec .cnvs-block-column-inner .pk-featured-categories-tiles {
+    grid-gap: 20px;
+}
+.selected-category-sec .pk-featured-categories .pk-featured-image.jarallax-keep-img > img {
+    display: none !important;
+}
+/* selected category section css end  */
+
+/* join-levels-section css start */
+.join-levels-section {
+    margin-bottom: 30px !important;
+}
+.join-levels-section .cnvs-block-column-inner h2 {
+    text-align: center;
+}
+.join-levels-section .cnvs-block-column-inner .is-layout-flow h3 {
+    font-size: 24px;
+}
+.join-levels-section .cnvs-block-section-content-inner .cnvs-block-row-inner .cnvs-block-column > .cnvs-block-column-inner  {
+    overflow: hidden;
+}
+.block-page-align-enabled .layout-fullwidth .entry-content .join-levels-section .alignfull {
+    width: auto !important;
+    margin: 0;
+}
+.join-levels-section .cnvs-block-column-inner .is-layout-flow {
+    text-align: center;
+    height: 100% !important;
+}
+.join-levels-section .cnvs-block-column-inner  .is-layout-flex.wp-container-7.wp-block-columns {
+    height: 100% !important;
+}
+.join-levels-section .cnvs-block-column-inner .wp-block-button__link {
+    font-size: 14px !important;
+}
+/* Responsive css start */
+@media screen and (max-width: 781px) { 
+    .join-levels-section .cnvs-block-column-inner .is-layout-flow {
+        height: auto !important;
+    }
+    .join-levels-section .cnvs-block-column-inner  .is-layout-flex.wp-container-7.wp-block-columns {
+        height: auto !important;
+    }
+} 
+/* join-levels-section css end */
+
+/* store section css start */
+.store-sec {
+    margin-top: 20px !important;
+}
+.store-sec .is-layout-flex.wp-block-buttons {
+    justify-content: center;
+}
+/* store section css end */
+
+
+/* dark mode */
+[data-scheme="dark"] .join-levels-section .cnvs-block-column-inner .wp-block-button__link {
+    color: #fff !important;
+}
+[data-scheme="dark"] .join-levels-section .cnvs-block-column-inner .wp-block-button__link:hover {
+    background-color: #474747 !important;
+}
+
+
+/*parallax css start*/
+
+.jarallax-keep-img {
+    position: relative;
+    z-index: 0;
+    height: 220px;
+    display: block;
+}
+.jarallax-keep-img > img {
+  display: none !important;
+}
+.jarallax-keep-img > .jarallax-img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    z-index: -100;
+}
+
+/* Ask an Expert page css start  */
+.page-template-ask-an-expert .cs-container {
+    max-width: 100%;
+    padding: 0;
+}
+.page-template-ask-an-expert .site-content {
+margin: 0 0 0px 0 ;
+}
+.page-template-ask-an-expert  .main-content {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.page-template-ask-an-expert .container {
+    max-width: 1200px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* ask expert banner css start */
+section.ask-expert-banner {
+    position: relative;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+}
+.ask-expert-banner .ask-expert-banner-img .jarallax-keep-img{
+    position: absolute; 
+    top: 0px; 
+    left: 0px;
+     width: 100%; 
+     height: 100%; 
+     overflow: hidden; 
+     z-index: -100;
+}
+.ask-expert-banner-text {
+    text-align: center;
+}
+.ask-expert-banner-text h1 {
+    color: #fff;
+}
+.ask-expert-banner-text p {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.ask-expert-banner-content {
+    max-width: 650px;
+    width:100%;
+    margin: auto;
+}
+.ask-expert-banner-content #faq_serach_form form {
+    position: relative;
+}
+.ask-expert-banner-content #faq_serach_form form .faq_serach {
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px !important;
+    padding-right: 130px;
+}
+.ask-expert-banner-content #faq_serach_form form .search-btn {
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    right: 0;
+    height: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #4DA38F;
+    color: #fff;
+    font-weight: 600;
+}
+.ask-expert-banner-content #faq_serach_form form .search-btn:hover {
+    background-color: #000000;
+}
+.ask-expert-banner-content #faq_serach_form form .close-btn {
+    position: absolute;
+    top: 50%;
+    right: 82px;
+    transform: translateY(-50%);
+    background: transparent;
+    font-size: 20px;
+}
+.ask-expert-banner-content #faq_serach_form form .close-btn .cs-icon-cross  {
+    font-weight: bold;
+}
+.ask-expert-banner div#faq_serach_form {
+    position: relative;
+}
+.ask-expert-banner #faq_result {
+    background: #fff;
+    border-radius: 7px;
+    max-height: 250px;
+    overflow: auto;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 4px 32px rgb(137 137 137 / 31%);
+}
+.ask-expert-banner #faq_result p.search_result {
+    padding: 6px 18px;
+    margin: 0;
+}
+.ask-expert-banner #faq_result p.search_result:first-child {
+    padding-top: 15px;
+}
+.ask-expert-banner #faq_result p.search_result:last-child {
+    padding-bottom: 15px;
+}
+[data-scheme="dark"] .ask-expert-banner #faq_result {
+    background: #232323;
+}
+/* ask expert banner css end */
+
+
+/* category filter sec css start */
+.category-filter-sec {
+    padding: 60px 0 65px 0;
+}
+.category-filter-main {
+    margin-bottom: 60px;
+}
+.category-filter-main legend {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+
+}
+.category-filter-main legend:after {
+    padding: 5px 8px 5px;
+    font-family: "cs-icons";
+    font-size: 14px;
+    content: "\e91f";
+    position: absolute;
+    transition: all 0.6s;
+}
+.category-filter-main legend.active:after {
+    transform: rotateX(190deg);
+}
+.category-sel-main {
+    display:none;
+}
+.checkbox_group-main {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.checkbox_group-main .checkbox_group {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.checkbox_group-main .filter-size {
+    width: 18px;
+    height: 18px;
+}
+.checkbox_group label {
+    margin: 0;
+    font-size: 16px;
+    color: #000;
+}
+[data-scheme="dark"] .category-filter-main legend {
+    color: #fff;
+}
+[data-scheme="dark"] .checkbox_group label {
+    color: #dbdbdb;
+}
+.checkbox_group-main .reset-btn {
+    width: 100%;
+}
+.checkbox_group-main button#resetCat {
+    background: transparent;
+    padding: 0;
+    color: #4da38f;
+    text-decoration: underline !important;
+}
+.checkbox_group-main button#resetCat:hover {
+    color: #000000;
+}
+.category-filter-sec .category-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.category-filter-sec .category-col{
+    width: 31.8%;
+    position: relative;
+}
+.category-filter-sec .category-col .category-col-text {
+    padding: 0px 20px 25px 20px;
+}
+.category-filter-sec .category-col {
+    box-shadow: 0 4px 32px rgb(137 137 137 / 31%);
+    border-radius: 10px;
+}
+.category-filter-sec .category-col::before {
+    position: absolute;
+    content: "";
+    background: #fff;
+    height: 18px;
+    width: 18px;
+    bottom: -16px;
+    z-index: 999;
+    clip-path: polygon(75% 0%, 100% 0, 0 100%, 0% 100%, 0 50%, 0% 0%);
+    box-shadow: 0 4px 32px rgb(137 137 137 / 31%);
+    right: 20px;
+}
+[data-scheme="dark"] .category-filter-sec .category-col::before { 
+    background-color: #232323;
+}
+
+.category-col-img {
+    margin-bottom: 25px;
+}
+.category-filter-sec .category-col-img .jarallax-keep-img img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.category-filter-sec .jarallax-keep-img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.category-filter-sec .casemorebtn {
+    text-align: center;
+    margin-top: 40px;
+}
+.category-filter-sec .casemorebtn .btn-custom {
+    min-width: 150px;
+    font-size: 14px;
+}
+.content_not_found {
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+/* category filter sec css end */
+
+.whats_your_quetion {
+    padding:65px 0 65px 0;
+    text-align: center;
+    background-color: #faf9f5;
+}
+[data-scheme="dark"] .whats_your_quetion {
+    background-color: #232323;
+}
+.quetion_inner_block {
+    max-width: 550px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.whats_your_quetion h2 {
+    margin-bottom: 15px;
+}
+.whats_your_quetion p {
+    margin-bottom: 15px;
+}
+
+.whats_your_quetion .btn-custom {
+    max-width: 187px;
+    font-size: 14px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+/* footer-section  */
+.page-template-ask-an-expert .site-footer {
+    padding-bottom: 30px;
+}
+.page-template-ask-an-expert .site-footer .cs-container, .page-template-ask-an-expert .site-footer .footer-instagram {
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+@media screen and (max-width: 1280px) { 
+    section.ask-expert-banner {
+        height: 350px;
+        padding: 50px 0;
+    }
+}
+@media screen and (max-width: 1199px) { 
+    .category-filter-sec .category-col {
+        width: 31.5%;
+    }
+}
+@media screen and (max-width: 991px) { 
+    .category-filter-sec .category-col {
+        width: 31%;
+    }
+    .category-filter-main {
+        margin-bottom: 35px;
+    }
+}
+@media screen and (max-width: 767px) { 
+    .category-filter-sec .category-col {
+        width: 47.6%;
+    }
+    .ask-expert-banner-content #faq_serach_form form .faq_serach {
+        padding-right: 100px;
+    }
+    .ask-expert-banner-content #faq_serach_form form .close-btn {
+        padding: 7px;
+        right: 66px;
+    }
+    .ask-expert-banner-content #faq_serach_form form .search-btn {
+        padding: 8px;
+    }
+    .ask-expert-banner-text h1 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .ask-expert-banner-text p {
+        font-size: 18px;
+        margin-bottom: 18px;
+    }
+    .whats_your_quetion h2 {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 575px) { 
+    .category-filter-sec .category-col {
+        width: 100%;
+    }
+}
+/* Ask an Expert page css end  */
+
+/* Ask an question page css start  */
+.page-template-ask-a-question .cs-container {
+    max-width: 100%;
+    padding: 0;
+}
+.page-template-ask-a-question .site-content {
+margin: 0 0 30px 0 ;
+}
+.page-template-ask-a-question  .main-content {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+.page-template-ask-a-question .container {
+    max-width: 1200px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+.page-template-ask-a-question .main-content {
+    display: block;
+}
+/* ask-a-question-banner css start */
+.ask-a-question-banner {
+    position: relative;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+    margin-bottom: 30px;
+}
+.ask-a-question-banner .ask-a-question-banner-img .jarallax-keep-img{
+    position: absolute; 
+    top: 0px; 
+    left: 0px;
+     width: 100%; 
+     height: 100%; 
+     overflow: hidden; 
+     z-index: -100;
+}
+.ask-a-question-banner-content {
+    text-align: center;
+}
+.ask-a-question-banner-content h3 {
+   color: #fff;
+}
+.ask-a-question-banner-content h1 {
+    color: #fff;
+}
+.ask-a-question-banner-content p {
+    color: #fff;
+ }
+/* ask-a-question-banner css end */
+
+/* question-form-sec css start */
+.question-form-sec {
+    margin-top: 35px;
+}
+.question-form-sec .custom-row {
+    max-width: 800px;
+    width: 100%;
+    margin: 65px auto;
+    box-shadow: 0 0px 10px #00000026;
+    border-radius: 10px;
+    padding: 40px 40px 30px 40px;
+}
+.question-form-sec p label {
+    width: 100%; 
+    margin-bottom: 0;
+}
+.question-form-sec p span.wpcf7-form-control-wrap input {
+    height: 50px;
+    border-radius: 5px;
+}
+.question-form-sec p span.wpcf7-form-control-wrap textarea {
+    height: 100px;
+    border-radius: 5px;
+}
+/* .question-form-sec p input.wpcf7-submit {
+    
+} */
+.question-form-sec p input.wpcf7-submit {
+    background-color: #4DA38F;
+    transition: 0.2s;
+    padding: 8px 16px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    display: inline-block;
+    font-family: Poppins;
+    font-weight: 700;
+    letter-spacing: 0.1125em;
+    text-transform: uppercase;
+}
+.question-form-sec p input.wpcf7-submit:hover {
+    background-color: #000000;
+    color: #fff;
+}
+[data-scheme="dark"] .question-form-sec p input.wpcf7-submit {
+    background-color: #474747 !important;
+}
+[data-scheme="dark"] .question-form-sec p input.wpcf7-submit:hover {
+    background-color: #282828 !important;
+}
+.question-form-sec p span.wpcf7-spinner {
+    margin-bottom: -7px;
+}
+.question-form-sec p .mc4wp-checkbox label span {
+    font-size: 14px;
+    padding-left: 7px;
+}
+/* question-form-sec css end */
+.page-template-ask-a-question .site-footer {
+    padding-bottom: 30px;
+}
+.page-template-ask-a-question .site-footer .cs-container, 
+.page-template-ask-a-question .site-footer .footer-instagram {
+    padding-right: 20px;
+    padding-left: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.question-form-sec p span.wpcf7-not-valid-tip {
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+/* responsive css start */
+@media screen and (max-width: 1280px) { 
+    .ask-a-question-banner {
+        height: 350px;
+        padding: 50px 0;
+    }
+}
+@media screen and (max-width: 767px) { 
+ 
+    .ask-a-question-banner-content h1 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .question-form-sec .custom-row {
+        padding: 40px 20px 20px 20px;
+    }
+}
+/* responsive css end */
+/* Ask an question page css end  */
+
+/* Login page css start  */
+.pmpro-login .pmpro-has-access, 
+.page-id-3871 .pmpro-has-access, 
+.pmpro-checkout .pmpro-has-access,
+.pmpro-levels .pmpro-has-access {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+.pmpro-login .pmpro-has-access hr, .page-id-3871 .pmpro-has-access hr, .pmpro-checkout .pmpro-has-access hr {
+    margin: 30px 0 !important;
+}
+.pmpro_login_wrap label, .pmpro_lost_password_wrap label, .pmpro_checkout .pmpro_checkout-fields label{
+    font-size: 16px;
+    font-weight: 500 !important;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 5px !important;
+}
+.pmpro_login_wrap .input, .pmpro_lost_password_wrap .input, .pmpro_checkout .pmpro_checkout-fields .input{
+    border-radius: 5px;
+    height: 42px;
+    max-width: 100% !important;
+}
+.login-submit input {
+    max-width: 150px;
+    width: 100%;
+    height: 40px;
+}
+
+.pmpro_actions_nav a, .pmpro_checkout .pmpro_checkout-fields .login-link a {
+    font-size: 20px;
+}
+
+.pmpro_checkout .pmpro_checkout-fields .pmpro_submit .pmpro_btn, 
+.pmpro_checkout_gateway-stripe .pmpro_submit .pmpro_btn-submit-checkout,
+.pmpro_lost_password_wrap .pmpro_submit .pmpro_btn,
+.pmpro-levels .entry-footer .pmpro_btn, .entry-content .pmpro_content_message > a {
+    background-color: #4DA38F;
+    transition: 0.2s;
+    padding: 8px 16px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    display: inline-block;
+    font-family: Poppins;
+    font-weight: 700;
+    letter-spacing: 0.1125em;
+    text-transform: uppercase;
+    float:inherit;
+}
+.entry-content .pmpro_content_message > a {
+    border: none;
+}
+.pmpro-levels .entry-footer .pmpro_btn {
+    max-width: 130px;
+    width: 100%;
+    border: none;
+}
+.pmpro_checkout .pmpro_checkout-fields .pmpro_submit .pmpro_btn:hover,
+.pmpro_checkout_gateway-stripe .pmpro_submit .pmpro_btn-submit-checkout:hover,
+.pmpro_lost_password_wrap .pmpro_submit .pmpro_btn:hover, .entry-content .pmpro_content_message > a:hover 
+.pmpro-levels .entry-footer .pmpro_btn:hover {
+    background-color: #000000 !important;
+    color: #fff;
+}
+[data-scheme="dark"] .pmpro_checkout .pmpro_checkout-fields .pmpro_submit .pmpro_btn, 
+[data-scheme="dark"] .pmpro_checkout_gateway-stripe .pmpro_submit .pmpro_btn-submit-checkout,
+[data-scheme="dark"] .pmpro_lost_password_wrap .pmpro_submit .pmpro_btn, 
+[data-scheme="dark"] .pmpro-levels .entry-footer .pmpro_btn, 
+[data-scheme="dark"] .pmpro_lost_password_wrap .pmpro_submit .pmpro_btn, 
+[data-scheme="dark"].entry-content .pmpro_content_message > a  {
+    background-color: #474747 !important;
+}
+[data-scheme="dark"] .pmpro_checkout .pmpro_checkout-fields .pmpro_submit .pmpro_btn:hover,
+[data-scheme="dark"] .pmpro_checkout_gateway-stripe .pmpro_submit .pmpro_btn-submit-checkout:hover,
+[data-scheme="dark"] .pmpro_lost_password_wrap .pmpro_submit .pmpro_btn:hover, 
+[data-scheme="dark"] .pmpro-levels .entry-footer .pmpro_btn:hover,
+[data-scheme="dark"].entry-content .pmpro_content_message > a:hover  {
+    background-color: #282828 !important;
+}
+.pmpro_checkout-field {
+    position: relative;
+}
+.pmpro_checkout_gateway-stripe span.pmpro_asterisk {
+    position: absolute;
+    top: 25px;
+    right: -10px;
+}
+#pmpro_processing_message{
+    margin: 0 !important;
+}
+.login-link, .pmpro_actions_nav {
+    margin-bottom: 0 !important;
+}
+form.pmpro_form .pmpro_submit {
+    margin-bottom: -20px;
+}
+#pmpro_levels.pmpro_advanced_levels-div h2 {
+    margin-bottom: 10px;
+}
+#pmpro_levels.pmpro_advanced_levels-div .post {
+    padding: 0 20px 0 0;
+}
+
+
+.tribe_events-template-default .pmpro_content_message > a,
+.pmpro_member_profile_edit_wrap .pmpro_submit .pmpro_btn {
+    background-color: #4DA38F !important;
+    transition: 0.2s;
+    padding: 8px 16px;
+    color: #fff !important;;
+    border-radius: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    display: inline-block;
+    font-family: Poppins;
+    font-weight: 700;
+    letter-spacing: 0.1125em;
+    text-transform: uppercase;
+    float:inherit;
+    border: none;
+    margin-bottom: 15px;
+}
+.tribe_events-template-default  .pmpro_content_message > a:hover,
+.pmpro_member_profile_edit_wrap .pmpro_submit .pmpro_btn:hover {
+    background-color: #000000 !important;
+    color: #fff !important;
+}
+[data-scheme="dark"] .tribe_events-template-default .pmpro_content_message > a,
+[data-scheme="dark"] .pmpro_member_profile_edit_wrap .pmpro_submit .pmpro_btn  {
+    background-color: #474747 !important;
+}
+[data-scheme="dark"] .tribe_events-template-default  .pmpro_content_message > a:hover
+[data-scheme="dark"] .pmpro_member_profile_edit_wrap .pmpro_submit .pmpro_btn:hover  {
+    background-color: #282828 !important;
+}
+
+[data-scheme="dark"] .tribe-events-single h1, [data-scheme="dark"] p.tribe-events-back a {
+  color: #fff;
+}
+[data-scheme="dark"] .tribe-events-content {
+    color: #5d5d5d;
+}
+.tribe_events-template-default .tribe-events-pg-template {
+    padding: 0 !important;
+}
+
+/* responsive css start */
+@media screen and (max-width: 767px) {
+    article.pmpro-has-access > header.page-header.page-header-simple {
+        margin-bottom: 30px;
+    }
+    article.pmpro-has-access > header > h1 {
+        font-size: 35px;
+    }
+    .pmpro_login_wrap .input, .pmpro_lost_password_wrap .input, .pmpro_checkout .pmpro_checkout-fields .input{
+        width: 100% !important;
+    }
+
+    #pmpro_levels.pmpro_advanced_levels-div .post {
+        padding: 0px;
+    }
+
+    #pmpro_levels.pmpro_advanced_levels-div h2 {
+       font-size: 25px;
+       margin-bottom: 0px;
+    }
+    #pmpro_levels.pmpro_advanced_levels-div .post {
+        padding: 0 0px 0 0;
+    }
+}
+/* Login page css end  */

@@ -1,0 +1,42 @@
+.workshop-section .custom-row {
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+.workshop-section .left-side-block, .workshop-section .right-side-block {
+    padding:0 15px;
+}
+.workshop-text {
+    margin-bottom: 15px;
+}
+.workshop-section .left-side-block {
+    flex: 0 0 auto;
+    width: 45%;
+}
+.workshop-section .right-side-block {
+    flex: 0 0 auto;
+    width: 55%;
+}
+.workshop-video.jarallax-keep-img {
+    height: 45vh;
+}
+.workshop-video img {
+    width: auto;
+}
+.workshop-video.jarallax-keep-img > .jarallax-img {
+    display: none !important;
+}
+/* Responsive css start */
+@media screen and (max-width: 767px) { 
+    .workshop-section .custom-row {
+        flex-wrap: wrap;
+    }
+    .workshop-section .left-side-block, .workshop-section .right-side-block {
+        width: 100%;
+        padding: 0;
+    }
+    .workshop-content-wrap {
+        padding-bottom: 20px;
+    }
+} 
