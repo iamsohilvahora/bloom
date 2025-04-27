@@ -1,0 +1,63 @@
+# Application
+web/app/plugins/*
+!web/app/plugins/advanced-custom-fields-pro/
+!web/app/plugins/absolute-reviews/
+!web/app/plugins/advanced-popups/
+!web/app/plugins/canvas/
+!web/app/plugins/contact-form-7/
+!web/app/plugins/one-click-demo-import/
+!web/app/plugins/powerkit/
+!web/app/plugins/regenerate-thumbnails/
+!web/app/plugins/searchwp-live-ajax-search/
+!web/app/plugins/sight/
+!web/app/plugins/wordpress-importer/
+!web/app/plugins/wpforms-lite/
+!web/app/plugins/.gitkeep
+!web/app/plugins/pmpro-events/
+!web/app/plugins/pmpro-cpt/
+!web/app/plugins/pmpro-advanced-levels-shortcode/
+!web/app/plugins/pmpro-signup-shortcode/
+!web/app/plugins/pmpro-courses/
+web/app/plugins/wp-site-migrate
+web/app/plugins/all-in-one-wp-migration
+web/app/mu-plugins/*/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+web/app/cache/*
+web/app/bloom_14_march_23.sql
+
+# WordPress
+web/wp
+web/.htaccess
+
+# Logs
+*.log
+
+# Dotenv
+.env
+.env.*
+.env.example
+awstats-icon
+awstatsicons
+icon/
+stats/
+web/.htpasswd
+web/robots.txt
+composer.lock
+
+# Composer
+/vendor
+!/vendor/.gitkeep
+
+# WP-CLI
+wp-cli.local.yml
+
+/old
+/local
+/new
+
+web/app/aiowps_backups/
+web/app/ai1wm-backups/
+web/app/mu-plugins/
+web/wp-config.php
